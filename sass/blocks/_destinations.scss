@@ -1,0 +1,59 @@
+// Popular Destinations
+
+.main {
+    display: grid;
+    gap: 120px;
+}
+
+.section__title {
+    font-weight: 600;
+    font-size: 32px;
+    
+    color: #161414;
+    
+}
+
+.section__cards {
+    display: grid;
+    gap: 32px;
+    
+
+    &--dest {
+        grid-template-columns: repeat(6, 1fr);
+        
+    }
+}
+
+
+.card__title {
+    color: #161414;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 8px;
+
+    
+    
+}
+
+.card__location {
+    color: #979797;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    transition: color .2s ease-in;
+
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.card img {
+    border-radius: 12px;
+}
+
+

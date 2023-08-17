@@ -1,0 +1,82 @@
+.section__cards--tips {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card--wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+   
+}
+
+.card__img--no--margin {
+    padding: 0;
+}
+
+
+.card__desc {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.card__footer--wide {
+    margin-top: auto; // вниз по блоку флекса
+
+    a {
+        color: #878787;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: color .2s ease-in;
+
+        &:hover {
+            color:$accent-color;
+        }
+    }
+}
+
+.card__tips-title {
+    color: #161414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card__text {
+    color: #5B5B5B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+
+.card__footer--date {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    background-image: url('./../img/icons/calendar-gray.svg');
+}
+
+.card__footer--author {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    background-image: url('./../../img/icons/user.svg');
+}
+
+
+.card__footer--comments {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    background-image: url('./../img/icons/comment.svg');
+}
+
+.card__footer--wide {
+    justify-content: flex-start;
+    gap: 24px;
+}

@@ -1,0 +1,61 @@
+.button-more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    height: 44px;
+    background: #F6F4FF;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 16px;
+    color:#5243C2;
+
+    transition: background .2s ease-in;
+
+    &:hover {
+        background: #dcd8f1;
+    }
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+}
+
+.section__cards--hotels {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section__cards {
+    margin-top: 64px;
+}
+
+
+.card__img-hotel {
+    padding-bottom: 10px;
+}
+
+.card__title {
+    padding-bottom: 12px;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.card__location--icon {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+    background-image: url('./../img/icons/map-pin-line.svg');
+}

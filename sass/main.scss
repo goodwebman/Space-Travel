@@ -1,0 +1,21 @@
+// Base
+@import './base/base';
+@import './base/reset';
+@import './base/vars';
+
+
+
+
+// Blocks
+@import './blocks/header';
+@import './blocks/destinations';
+@import './blocks/hotels';
+@import './blocks/tips';
+@import './blocks/about-us';
+@import './blocks/footer';
+
+
+// Adaptiv
+@import './blocks/nav-button';
+@import './blocks/media';
+@import './blocks/mobile.nav';
